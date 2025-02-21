@@ -1,1 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zOa-lK1T)
+### Milestone 1 Assignment for RevoU FSSE Shanghai
+
+#### By Herlinda Apriani (Team 2)
+
+## How to Open
+
+### Deploying Manually
+
+Using git, you can clone the repository using the following command in git bash on your preferred local folder:
+
+```console
+git clone https://github.com/RevoU-FSSE-4/milestone-1-herlindaapr.git
+```
