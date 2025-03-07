@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project showcases my journey as a **Full-stack Software Engineer**, my skills, academic background, and projects. Built with **HTML, JavaScript, and Tailwind CSS**, this site reflects my passion for web development, and clean, functional design.  
 
-🌐 **Live Demo:** [https://herlindaapr.netlify.app/]  
+🌐 **Live Demo:** [https://herlindaapr.site]  
 
 ---
 
