@@ -26,8 +26,8 @@
 </head>
 
 <body class="bg-pink-50 w-full box-content">
-    <header class="flex flex-row w-full">
-        <nav class="flex w-full justify-between">
+    <header class="flex lg:sticky lg:top-0 flex-row w-full">
+        <nav class="flex w-full lg:items-center justify-between bg-pink-50">
             <div class="w-full md:w-5/6 py-3 px-2 lg:py-2 lg:px-3">
                 <img class="w-8 md:w-[40px]" src="assets/logo.png" alt="logo">
             </div>
@@ -40,19 +40,19 @@
             </ul>
 
             <!-- Hamburger Menu Button -->
-            <div class="block absolute z-10 top-3 right-1 lg:hidden transition-transform duration-300 cursor-pointer">
+            <div id="hamburger" class="block absolute z-20 top-3 right-1 lg:hidden transition-transform duration-300 cursor-pointer">
                 <button id="menu-btn" class="text-pink-900 focus:outline-none">
                     <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
                 </button>
             </div>
 
             <!-- Mobile Menu (Hidden by Default) -->
-            <div id="mobile-menu" class="translate-x-full flex absolute flex-col w-full h-screen justify-center bg-red-900 text-center transition delay-150 duration-300 ease-in lg:hidden shadow-md">
-                <a href="#" class="text-pink-50 hover:text-pink-800 transition-all duration-200">About</a>
-                <a href="#academic" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Academic</a>
-                <a href="#skills" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Skills</a>
-                <a href="#projects" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Projects</a>
-                <a href="#contact" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Contact Me</a>
+            <div id="mobile-menu" class="z-10 translate-x-full flex fixed flex-col w-full h-screen justify-center bg-red-900 text-center transition delay-150 duration-300 ease-in lg:hidden shadow-md">
+                <a onclick="handleout()" href="#" class="text-pink-50 hover:text-pink-800 transition-all duration-200">About</a>
+                <a onclick="handleout()" href="#academic" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Academic</a>
+                <a onclick="handleout()" href="#skills" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Skills</a>
+                <a onclick="handleout()" href="#projects" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Projects</a>
+                <a onclick="handleout()" href="#contact" class="text-pink-50 hover:text-pink-800 transition-all duration-200">Contact Me</a>
             </div>
 
         </nav>

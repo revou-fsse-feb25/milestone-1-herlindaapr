@@ -58,10 +58,13 @@ window.onload = function() {
 // Hamburger menu //
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
+    const hamburger = document.getElementById('hamburger');
 
         menuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('translate-x-full');
         menuBtn.classList.toggle('text-white');
+        hamburger.classList.toggle('fixed');
+        hamburger.classList.toggle('absolute');
 });
 
 // Event listener for scrolling//
@@ -111,4 +114,11 @@ function moveToPrevSection() {
             behavior: "smooth"
         });
     }
+}
+
+function handleout(){ 
+    mobileMenu.classList.toggle('translate-x-full');
+    menuBtn.classList.toggle('text-white');
+    hamburger.classList.toggle('fixed');
+    hamburger.classList.toggle('absolute');
 }
